@@ -1,3 +1,59 @@
+* {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+}
+
 body {
   background-color: rgb(187, 255, 187);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav li {
+  padding: 10px;
+  display: inline;
+}
+
+p {
+  text-align: justify;
+  line-height: 2rem;
+}
+
+#post article,
+footer > section:first-of-type {
+  border: 2px #cccccc dotted;
+}
+
+#post article {
+  padding: 1vw;
+  width: 50vw;
+  display: inline;
+  box-sizing: border-box;
+}
+
+footer form input:hover,
+footer form textarea:hover {
+  background-color: green;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
 }
